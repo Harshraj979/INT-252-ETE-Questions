@@ -9,6 +9,7 @@ import Q4 from './Q4b.jsx'
 import Q5 from './Q5.jsx'
 import Q7 from './Q7.jsx'
 import Calculator from './Q6.jsx'
+import CountDown from './Q9.jsx'
 import App1 from './Q1b.jsx'
 import { AuthProvider } from './Q1a.jsx'
 
@@ -19,7 +20,7 @@ createRoot(document.getElementById('root')).render(
        <App1/>
      </AuthProvider>
       */}
-      <Calculator/>
+      <CountDown/>
   </StrictMode>,
   // <BrowserRouter>
   //   <Q7/>
