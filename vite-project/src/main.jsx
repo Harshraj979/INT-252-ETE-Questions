@@ -16,7 +16,11 @@ import App1 from './Q1b.jsx'
 import Counter from './Q11.jsx'
 import Q13 from './Q13b.jsx'
 import { AuthProvider } from './Q1a.jsx'
-
+import Q14 from './Q14.jsx'
+import Q15 from './Q15.jsx'
+//import TodoList from './Q16.jsx'
+import RegistrationForm from './Q17.jsx'
+import Q18 from './Q18b.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
      {/*
@@ -24,7 +28,7 @@ createRoot(document.getElementById('root')).render(
        <App1/>
      </AuthProvider>
       */}
-      <Q13/>
+      <Q18/>
   </StrictMode>,
   // <BrowserRouter>
   //   <Q7/>
