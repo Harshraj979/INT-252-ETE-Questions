@@ -23,6 +23,10 @@ import RegistrationForm from './Q17.jsx'
 import Q18 from './Q18b.jsx'
 import Q19 from "./Q19c.jsx"
 import CountdownTimer from './Q20.jsx'
+import Q21 from "./Q21c.jsx"
+import Q22 from './Q22b.jsx'
+import Q25 from './Q25c.jsx'
+import UserProfile from './Q27.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
      {/*
@@ -30,8 +34,8 @@ createRoot(document.getElementById('root')).render(
        <App1/>
      </AuthProvider>
       */}
-      <CountdownTimer/>
-  </StrictMode>,
+      <UserProfile/>
+  </StrictMode>
   // <BrowserRouter>
   //   <Q7/>
   // </BrowserRouter>
