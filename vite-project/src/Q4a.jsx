@@ -1,4 +1,4 @@
-//c reate controlled component for student application that share functionality to another student by using render prop
+//create controlled component for student application that share functionality to another student by using render prop
 
 import { useState } from "react";
 

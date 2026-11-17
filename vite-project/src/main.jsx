@@ -27,6 +27,11 @@ import Q21 from "./Q21c.jsx"
 import Q22 from './Q22b.jsx'
 import Q25 from './Q25c.jsx'
 import UserProfile from './Q27.jsx'
+import Q28 from './Q28b.jsx'
+import Q29 from './Q29b.jsx'
+import LoginForm from './Q30.jsx'
+import Q32 from './Q32d.jsx'
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
      {/*
@@ -34,7 +39,7 @@ createRoot(document.getElementById('root')).render(
        <App1/>
      </AuthProvider>
       */}
-      <UserProfile/>
+      <Q32/>
   </StrictMode>
   // <BrowserRouter>
   //   <Q7/>
